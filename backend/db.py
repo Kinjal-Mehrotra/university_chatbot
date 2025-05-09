@@ -10,7 +10,7 @@ def execute_sql(query):
         database=os.getenv("DB_NAME"),
         port=int(os.getenv("DB_PORT"))
     )
-    cursor = conn.cursor()
+    cursor = conn.cursor(dictionary=True)
     cursor.execute(query)
     result = cursor.fetchall()
     cursor.close()
