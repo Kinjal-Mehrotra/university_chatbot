@@ -1,5 +1,7 @@
 from fastapi import FastAPI, HTTPException
-from groq_api import generate_sql
+# from groq_api import generate_sql
+from ollama_api import generate_sql
+
 from db import execute_sql
 from pydantic import BaseModel
 
