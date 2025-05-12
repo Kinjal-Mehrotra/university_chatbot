@@ -42,7 +42,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                 ),
                 Align(
-                  alignment: const Alignment(-0.18, -0.34),
+                  alignment: const Alignment(0, -0.34),
                   child: Text(
                     '   ASK YOUR QUERIES \n     RELATED TO THE \n           UNIVERSITY \n\n   I  AM HAPPY TO BE \n     YOUR GUIDE!!',
                     textAlign: TextAlign.left,
@@ -62,7 +62,7 @@ class WelcomePage extends StatelessWidget {
                   ),
                 ),
                 Align(
-                  alignment: const Alignment(-0.09, 0.46),
+                  alignment: const Alignment(0, 0.46),
                   child: ElevatedButton(
                     onPressed: () {
                       Navigator.pushNamed(context, '/chatPage');

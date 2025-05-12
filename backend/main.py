@@ -9,7 +9,7 @@ app = FastAPI()
 class ApiData(BaseModel):
     question: str
 origins = [
-    "http://localhost:57551"
+    "http://localhost:59189"
 ]
 
 app.add_middleware(

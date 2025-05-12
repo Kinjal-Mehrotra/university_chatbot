@@ -24,7 +24,7 @@ class _ChatpageState extends State<Chatpage> {
     });
 
     try {
-      final uri = Uri.parse("http://192.168.84.95:5000/askques");
+      final uri = Uri.parse("http://172.16.104.104:5000/askques");
 
       final response = await http.post(
         uri,

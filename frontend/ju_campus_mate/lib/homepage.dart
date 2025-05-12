@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(milliseconds: 1500), () {
+    Future.delayed(const Duration(milliseconds: 15000), () {
       if (!mounted) return;
       Navigator.push(
         context,
@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   ),
                 ),
                 Align(
-                  alignment: const Alignment(-0.17, -0.59),
+                  alignment: const Alignment(-0.03, -0.59),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(8),
                     child: Image.network(
